@@ -181,7 +181,6 @@
   justify-content: space-around;
   padding-top: 2rem;
   text-align: center;
-  /* background-color: var(--bg-primary); */
   padding-bottom: 2rem;
 }
 
@@ -221,7 +220,6 @@
 .blog-control .btn-primary:hover {
   background-color: var(--bg-secondary);
   color: var(--action-secondary);
-  /* border: 0; */
 }
 
 .blog-control .btn-secondary {
@@ -239,4 +237,130 @@
 
 .blog-info .blog-right {
   display: none;
+}
+
+/* *----------- * Inform * -----------*/
+.main {
+  background-color: var(--background-secondary);
+  padding: 10rem 0;
+}
+
+.inform {
+}
+
+.inform .title {
+  /* border-left: 2px solid var(--background-primary); */
+  line-height: 1.3;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.inform-group {
+  margin-bottom: 3rem;
+}
+
+.inform-card {
+  background-color: var(--background-primary);
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 10px 10px rgba(0, 0%, 0%, 0.05);
+  transition: 0.25s ease;
+  cursor: pointer;
+}
+
+.inform-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 10px hsla(0, 0%, 0%, 0.1);
+}
+
+.inform-banner {
+  display: none;
+}
+
+.inform-content {
+  padding: 1rem 5rem;
+}
+
+.inform-content .inform-title {
+  background: var(--action-secondary);
+  color: var(--bg-secondary);
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  transition: 0.2s all linear;
+}
+
+.inform-content .inform-title:hover {
+  background: var(--bg-secondary);
+  color: var(--action-secondary);
+}
+
+.inform-sub {
+  line-height: 1.4;
+  margin-bottom: 1rem;
+  transition: 0.2s all linear;
+  color: var(--bg-primary);
+}
+
+.inform-sub:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
+
+.inform-desc,
+.inform-wrapper {
+  display: none;
+}
+
+.inform-detail {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.inform-detail .inform-name {
+  display: block;
+  color: var(--bg-secondary);
+}
+
+.inform-detail .inform-name:hover {
+  color: var(--accent-color);
+}
+
+.inform-timer {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: var(--bg-tertiary);
+}
+
+.seperator {
+  background-color: var(--accent-color);
+  margin: 0 0.3rem;
+  width: 0.6rem;
+  height: 0.6rem;
+  border-radius: 50%;
+}
+
+.btn-more {
+  display: block;
+  margin: 0 auto;
+  background-color: var(--bg-secondary);
+  color: var(--background-secondary);
+  padding: 0.6rem 1.8rem;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: 0.2s all linear;
+}
+
+.btn-more:hover {
+  background: var(--accent-color);
+  color: var(--background-primary);
+}
+
+.inform-timer i {
+  color: #32a933;
 }
