@@ -174,4 +174,69 @@
   cursor: pointer;
 }
 
-/* *----------- header* -----------*/
+/* *----------- * blog * -----------*/
+.blog-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 2rem;
+  text-align: center;
+  /* background-color: var(--bg-primary); */
+  padding-bottom: 2rem;
+}
+
+.blog-info .blog-content .blog-title {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.blog-info .blog-content .blog-title strong {
+  color: var(--accent-color);
+  font-weight: 700;
+}
+
+.blog-info .blog-content .blog-desc {
+  color: var(--bg-secondary);
+  margin-bottom: 2rem;
+  font-size: 1.6rem;
+}
+
+.blog-info .blog-content .blog-control {
+  margin: 20px;
+}
+
+.blog-control .btn {
+  min-width: 10rem;
+  border-radius: 40px;
+}
+
+.blog-control .btn-primary {
+  background: var(--accent-color);
+  color: var(--white-color);
+  padding: 0.8rem 1.2rem;
+  border: 0;
+  font-weight: bold;
+}
+
+.blog-control .btn-primary:hover {
+  background-color: var(--bg-secondary);
+  color: var(--action-secondary);
+  /* border: 0; */
+}
+
+.blog-control .btn-secondary {
+  background: var(--action-secondary);
+  color: var(--bg-secondary);
+  padding: 0.6rem 1.2rem;
+  margin-left: 1rem;
+  border: 2px solid var(--bg-tertiary);
+  font-weight: bold;
+}
+
+.blog-control .btn-secondary:hover {
+  border-color: var(--accent-color);
+}
+
+.blog-info .blog-right {
+  display: none;
+}
